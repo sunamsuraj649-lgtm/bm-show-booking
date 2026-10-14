@@ -1,0 +1,27 @@
+{
+  "name": "bmshow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.1.0"
+  },
+  "vite": {
+    "plugins": [
+      "@vitejs/plugin-react"
+    ],
+    "server": {
+      "port": 3000,
+      "strictPort": true
+    }
+  }
+}
